@@ -26,6 +26,7 @@ classifiers = [
 ]
 
 dependencies = [
+  "torch==1.11.0",
   "torchgeo>=0.6.0",
   "rioxarray>=0.15.0",
   # see issue #64
