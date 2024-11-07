@@ -39,7 +39,7 @@ dependencies = [
   "h5py>=3.10.0",
   "mlflow>=2.12.1",
   # broken due to https://github.com/Lightning-AI/pytorch-lightning/issues/19977
-  "lightning[pytorch-extra]>=2,!=2.3.*",
+  "lightning[pytorch-extra]==2.1.0",
   "segmentation-models-pytorch>=0.3"
   # Dependencies not available on PyPI
 ]
